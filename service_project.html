@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVICES</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* container logo ani list ek line made flex zale */
+        .container{
+            display: flex;
+            background-color:rgb(245, 231, 231);
+            position: fixed;
+            width: 100%;
+            margin-top: 0px;
+            padding: 0;
+           
+        }
+        .logo{
+            border: 2px solid black;
+            border-radius: 100px;
+        }
+        .nav ul{
+            margin: 15px;
+            display: flex;
+            list-style: none;
+            margin-left: 6px;
+            
+            
+            }
+        .nav ul li a{
+            display: block;
+            padding: 5px;
+            text-decoration: none;
+            font-size: 20px;
+            
+            
+        }
+        .nav ul li a:hover{
+            background-color: black;
+            color:white;
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        /* services */
+        .service-head{
+            background-color: black;
+            color: white;
+            display: flex;
+            margin-top: 20px;
+            }
+            
+            .service{
+                display: flex;
+                font-size: 25px;
+                text-align: justify;
+            }
+            #pz{
+                width: 80%;
+                /* padding: 50px; */
+                padding-top: 95px;
+                padding-left: 40px;
+               
+            }
+            .service1{
+                display: flex;
+                font-size: 25px;
+                text-align: justify;
+
+            }
+            
+            #cat{
+                width: 80%;
+                /* padding: 50px; */
+                padding-top: 110px;
+                padding-left: 30px;
+                
+            }
+            .service2{
+                display: flex;
+                font-size: 25px;
+                text-align: justify;
+            }
+            #slowgun{
+                width: 80%;
+                padding: 60px;
+                padding-top: 40px;
+                
+            }
+           /* menu start */
+            h1{
+                padding-left: 37%;
+                color: blue;
+            }
+            .menu{
+                border: 1px double black;
+            }
+            .padm{
+                display: flex; 
+                padding: 10px; 
+                justify-content: space-around;
+                background-color: rgb(247, 240, 231);
+            }
+            .padm img:hover{
+                width:30% ;
+                height: 270px;
+                border-radius: 5px;
+                border: 1px black solid;
+                transition: ease-in,2s;
+            }
+            #end{
+                padding-left: 25%;
+                color: blue;
+            }
+            .surprice{
+                
+                width: 300px;
+                height: 300px;
+                animation-name: padm;
+                animation-duration: 15s;
+                animation-iteration-count:infinite;
+                position: relative;
+                top: 10px;
+                left: 500px;
+                transition:ease-in-out ;
+                
+            }
+            @keyframes padm {
+            
+            0% { background-image: url(sur.jpg); background-repeat: no-repeat; }
+            80%  {background-image: url(bahu.jpg); background-repeat: no-repeat; }
+            }
+        
+           .add{
+                display: flex;
+                    background-color: black;
+                    color: white;
+                    padding: 20px;
+                }
+            .sec{
+                 padding-left: 8%;
+                  margin-top: -2px;
+                }
+             .ex{
+              padding-left: 8%;
+               }
+           .ex a{
+            text-decoration: none;
+            color: white;
+           }
+            
+
+
+           
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+                <img src="logo.webp" alt="onlinefoodservice" width="60px" height="60px">
+        </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="PROJECT1.html">HOME</a></li>&nbsp&nbsp;
+                    <li><a href="service_project.html">SERVICE</a></li>&nbsp&nbsp;
+                    <li><a href="aboutus.html">ABOUT US</a></li>&nbsp&nbsp;
+                    <li><a href="conatct_project.html">CONTACT US</a></li>&nbsp&nbsp;
+                </ul>
+            </div>
+        </div>
+        <br><br><br>
+    <h1 class="service-head">*_OUR SERVICES_*</h1>
+        <br>
+           <div class="service">
+                <img src="pz.jpg" alt="" width="70%" height="370px"  style="margin-left: 20px;">
+                <dl>
+                    <!-- <dt><h4 class="pz1"> FOOD ORDER</h4></dt> -->
+                    <dd id="pz"><b>FOOD ORDER</b> <br><br> Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot ...</dd>
+                </dl>
+            </div>
+            <br><br><br>
+            <div class="service1">
+                <dl>
+                    <!-- <dt><h4 class="pz1"> BULK/CATERING ORDER</h4></dt> -->
+                <dd id="cat"><b>BULK/CATERING ORDER</b><br><br> is the business of providing food service at a remote site or a site such as a hotel, hospital, pub, aircraft, cruise ship, park, filming site or studio, entertainment site, or event venue.</dd>
+               </dl>
+                <img src="catering.jpg" alt=""  width="70%" height="350px"  style="margin-right: 20px;">
+            </div>
+            <br><br><br>
+            <div class="service2">
+            <img src="dilivry.jpg" alt=""  width="35%" height="350px" style="margin-left: 20px;">
+            <dl>
+                <!-- <dt><h4 class="pz1"> FAST DELIVERY</h4></dt> -->
+            <dd id="slowgun"><b>FAST DELIVERY</b><br><br>
+             * Call us and we'll be. <br>
+            * Delivered with love.<br>
+            * Delivering happiness<br>
+            * Delivering happiness to your home.<br>
+            * Delivering satisfaction every day.<br>
+            * Don't starve, just order. <br>
+            <img src="eco.jpg" alt="" width="100px">
+            </dd>
+            </dl>
+            </div>
+            <br><br>
+            <h1>---MENU---</h1>
+            <div style="display: flex; padding: 1px;">&nbsp&nbsp&nbsp
+                <img class="menu" src="xvii.jpg" alt="" width="25%" height="200px">&nbsp&nbsp
+            <img class="menu" src="xviii.jpg" alt="" width="25%" height="200px">&nbsp&nbsp
+            <img class="menu" src="xxi.jpg" alt="" width="25%" height="200px">&nbsp&nbsp
+            <img class="menu" src="xx.jpg" alt="" width="25%" height="200px">&nbsp&nbsp
+            </div><br>
+           <div style="display: flex; padding: 1px;">&nbsp&nbsp&nbsp
+            <img class="menu" src="i.jpg" alt="" width="20%" height="200px">&nbsp&nbsp
+            <img class="menu" src="ii.webp" alt="" width="20%"height="200px">&nbsp&nbsp
+            <img class="menu" src="iv.jpg" alt="" width="20%" height="200opx">&nbsp&nbsp
+            <img class="menu" src="v.jpg" alt="" width="20%" height="200px">&nbsp&nbsp
+            <img class="menu" src="viii.jpg" alt="" width="15%" height="200px">&nbsp&nbsp
+            </div><br>
+            <div style="display: flex; padding: 1px;">&nbsp&nbsp&nbsp
+            <img class="menu" src="xi.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
+            <img class="menu" src="iii.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
+            <img class="menu" src="v.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
+            <img class="menu" src="x.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
+            <img class="menu" src="vi.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
+            </div><br>
+            <div style="display: flex; padding: 5px;">&nbsp&nbsp&nbsp
+            <img class="menu" src="vii.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
+            <img class="menu" src="xii.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
+            <img class="menu" src="xiii.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
+            <img class="menu" src="xiv.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
+            <img class="menu" src="xvi.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
+            </div>
+            <br>
+            <h1>--OUR SPECIAL DISH--</h1>
+            <br>
+            <div class="padm">
+                
+                <img src="ssp1.webp" alt="" width="25%" height="250px">
+                <img src="ssp2.png" alt="" width="25%" height="250px">
+                
+            </div>
+            <br>
+            <h1 id="end">-- SURPREICE DISH TO NEW CUSTOMER --</h1>
+            <div class="surprice"></div>
+            <hr><hr>
+            
+            <div class="add">
+                <div class="owner">
+                <dl>
+                    <dt><b>PADMAJA NITIN BIRARI</b></dt>
+                    <dd>Owner of online food services... <br>Bunglow No 16,<br>Madhav Colony,<br>Manmad-423104. 
+                    <br>Dist.Nashik , Tal.Nandgaon</dd>
+                </dl>
+                <br><br>
+                contact : 9503990111 <br>   
+                email   : padmajab787@gmail.com / myonlinefoodservice0716gmail.com
+                <br><br>
+                        <a href="#"><img src="f.png" alt=""></a>
+                        <a href="#"><img src="in.png" alt=""></a>
+                        <a href="#"><img src="ins.png" alt=""></a>
+                        <a href="#"><img src="tw.png" alt=""></a>
+            
+                 </div>
+                <div class="sec">
+                    <dl>
+                        <dt><b>MAYANK BIRARI</b></dt>
+                        <dd>Secretory of online food services... <br>Bunglow No 14,<br>Madhav Colony,<br>Manmad-423104. 
+                        <br>Dist.Nashik , Tal.Nandgaon</dd>
+                    </dl>
+                    <br><br>
+                    contact : 73*****067 <br>   
+                    email   : mayankb787@gmail.com / myonlinefoodservice0716gmail.com
+                    <br><br>
+                    <a href="#"><img src="f.png" alt=""></a>
+                    <a href="#"><img src="in.png" alt=""></a>
+                    <a href="#"><img src="ins.png" alt=""></a>
+                    <a href="#"><img src="tw.png" alt=""></a>
+                    
+                </div>
+                <div class="ex">
+                    <b>Explore Our Page :-</b><br><br>
+                
+                            <a href="PROJECT1.html">HOME</a><br><br>
+                            <a href="service_project.html">SERVICE</a><br><br>
+                            <a href="aboutus.html">ABOUT US</a><br><br>
+                            <a href="conatct_project.html">CONTACT US</a><br><br>
+                        
+                </div>
+                
+            </div>
+            <br>
+            
+             
+</body>
+</html>
